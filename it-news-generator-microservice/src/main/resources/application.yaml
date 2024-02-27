@@ -1,0 +1,8 @@
+server:
+  port: 6666
+
+spring:
+  config:
+    import: optional:file:.env[.properties]
+  kafka:
+    bootstrap-servers: ${KAFKA_BOOTSTRAP_SERVERS}
