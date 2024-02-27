@@ -1,6 +1,7 @@
 package com.example.itnewsgeneratormicroservice.model;
 
 import lombok.Data;
+import lombok.ToString;
 
 import java.time.LocalDateTime;
 
